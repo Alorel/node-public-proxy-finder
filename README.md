@@ -6,6 +6,9 @@ A simple library to probe the following sites for proxies (visit them to receive
  - http://www.socks-proxy.net/
  - http://free-proxy-list.net/anonymous-proxy.html
  
+ 
+[![NPM](https://nodei.co/npm/public-proxy-finder.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/public-proxy-finder/)
+ 
 See [Runkit page](https://runkit.com/npm/public-proxy-finder) for examples.
 All functions return Promises containing an array of proxy specs.
 
