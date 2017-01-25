@@ -43,6 +43,10 @@ module.exports = {
     }
 };
 
+/**
+ * Combines all the available requests into one resultset
+ * @return {Promise.<Object[]>}
+ */
 module.exports.all = function () {
     return Promise.all([
         module.exports.ssl(),
