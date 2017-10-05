@@ -14,8 +14,6 @@ All functions return Promises containing an array of proxy specs.
 
 # API
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/Alorel/node-public-proxy-finder.svg)](https://greenkeeper.io/)
-
 ```js
 var ProxyFinder = require('public-proxy-finder');
 
