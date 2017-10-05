@@ -15,6 +15,3 @@ script:
 notifications:
   on_success: change
   on_failure: always
-
-matrix:
-  fast_finish: true
