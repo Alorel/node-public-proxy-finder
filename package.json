@@ -13,7 +13,8 @@
     "bluebird": "^3.0",
     "cheerio": "^0.22.0",
     "request": "^2.0",
-    "request-promise": "^4.0"
+    "request-promise": "^4.0",
+    "snyk": "^1.189.0"
   },
   "keywords": [
     "free",
@@ -28,5 +29,10 @@
   "bugs": {
     "url": "https://github.com/Alorel/node-public-proxy-finder/issues"
   },
-  "homepage": "https://github.com/Alorel/node-public-proxy-finder"
+  "homepage": "https://github.com/Alorel/node-public-proxy-finder",
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
